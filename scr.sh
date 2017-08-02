@@ -27,9 +27,9 @@ ls -latr
 echo "login details"
 git config --list | grep -i user.name
 echo "enter git url"
-git remote add origin https://github.com/devopsharish/learning_chef
+git remote add origin $0
  git add --all
- git commit -m " Test"
+ git commit -m $1
  git pull origin master
  git push -u origin master
 
