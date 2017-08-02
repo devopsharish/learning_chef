@@ -30,7 +30,7 @@ echo "enter git url"
 git remote add origin https://github.com/devopsharish/learning_chef
  git add --all
  git commit -m " Test"
- git pull
+ git pull origin master
  git push -u origin master
 
 
